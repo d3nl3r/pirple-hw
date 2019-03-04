@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <base href="http://html5doctor.com"><!-- allows authors to specify the document base URL for the purposes of resolving relative URLs, and the name of the default browsing context for the purposes of following hyperlinks. The element does not represent any content beyond this information. -->
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>My Favorite Book</h1>
+    <nav> <!-- This tag define the navigation of the site-->
+      <ul> <!-- This tag define the unordered list -->
+        <li><a href="#" title="Home">Home</a></li> <!-- With this tag, the listing begins -->
+        <li><a href="http://www.google.at" title="Google">Google</a></li>
+        <li><a href="mailto:mymail@mymail.com" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <form action="http://www.google.com/search" method="get"> <!-- This represents a user-submittable form. -->
+      <label>Google: <input type="search" name="q"></label> <!-- This represents a caption in a user interface.. -->
+      <label for="unittype">Select unit type:</label>
+        <select id="unittype" name="unittype"> <!-- This represents a control for selecting amongst a set of options.. -->
+          <option value="1"> Miner </option> <!-- This represents an option in a select element or as part of a list of suggestions in a datalist element. -->
+          <option value="2"> Puffer </option>
+          <option value="3" selected> Snipey </option>
+          <option value="4"> Max </option>
+          <option value="5"> Firebot </option>
+        </select>
+        <input type="submit" value="Search...">
+    </form>
+  </header>
+  <main>
+    <article> <!-- This tag indicates the page-content of a blog-->
+      <h2>Here are my top 5 books, that I've read</h2>
+      <img src="images/emoji1.png" alt="My Title" width=10% />
+      <ol>
+        <li>How to win and influence people by Dale Carnegie</li>
+        <li>7 Habits of Highly Effective People by Stephen R. Covey</li>
+        <li>The Untethered Soul by Michael Singer</li>
+        <li>Good to Great by Jim Colbog </li>
+        <li>Unbeatable Mind by Mark Divine</li>
+      </ol>
+      <hr>
+      <br>
+      <h2>My Favorite Music</h2>
+        <h3>Don't Stop Me Now - Queen</h3>
+          <audio src="media/Queen-Dont-Stop-Me-Now.mp3" controls></audio> <!-- represents the presentation of the audio file -->
+      <h2>My Favorite Videos</h2>
+        <h3>Saying No to Conversation</h3>
+          <video src="media/Saying-no.mp4" controls></video> <!-- represents the presentation of the video file. -->
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zoFQo3d6Dds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- represents a nested browsing context. -->
+    </article>
+
+
+  </main>
+  <footer> <!--   With this tag, the information about the author or the website is defined  -->
+
+  </footer>
+</body>
+</html>
