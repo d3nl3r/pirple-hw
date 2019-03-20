@@ -1,0 +1,50 @@
+/*
+
+
+    Farben:
+    1.  #ff5500;
+
+    Positionierung
+    1.Global
+      1.1
+*/
+
+body {
+  background: #ff2200;
+  color: #444;
+  font-family:helvetica, sans-serif;
+  display: block;
+  max-width: 1024px;
+  margin: auto;
+}
+
+main {
+  padding:1em;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  color:#ff5A00;
+  padding: 1.2em;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+p, ul>li, ol>li {
+  font-size: 1.2em;
+}
+
+a
+{
+  text-decoration: none;
+  color: #f50;
+}
+a:link, a:active{
+  color: #f70;
+}
+a:hover{
+  text-decoration: underline;
+  color: #f90;
+}
