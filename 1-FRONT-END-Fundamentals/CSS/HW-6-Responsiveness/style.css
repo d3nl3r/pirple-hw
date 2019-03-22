@@ -1,0 +1,93 @@
+/*
+    Farben:
+    1.  #ff5500;
+
+    Positionierung
+    1.Global
+      1.1
+*/
+
+body {
+  color: #444;
+  font-family:helvetica, sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+
+.content {
+  padding:1em;
+}
+
+
+.heading {
+  color:#ff5A00;
+  padding: 1.2em;
+}
+
+#recipe, #ingredients, #instructions {
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+p, ul>li, ol>li {
+  font-size: 1.2em;
+}
+
+p span{
+  font-style: oblique;
+  background: yellow;
+}
+
+p span:last-child{
+  font-style: normal;
+  font-weight: bold;
+}
+
+p span.special-class{
+  font-style:normal;
+  color: red;
+}
+
+
+ol>li{
+  list-style-type: lower-roman;
+}
+
+a
+{
+  text-decoration: none;
+  color: #f50;
+}
+a:link, a:active{
+  color: #f70;
+}
+a:hover{
+  text-decoration: underline;
+  color: #f90;
+}
+
+@media only screen and (max-width: 400px){
+    body {background: red;}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 750px){
+    body {
+      background: orange;
+      font-size:1.3em;
+    }
+    .container {
+      width:90%;
+    }
+}
+
+@media only screen and (min-width: 751px){
+    body {background: yellow;}
+    .container {
+      width:752px;
+    }
+}
